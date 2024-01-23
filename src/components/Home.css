@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media(max-width:430px){
+  .pages{
+    text-decoration: none ;
+  }
+  .url{
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 800;
+  }
+  
+  .tituloide{
+    text-align: center;
+    margin: 20px 20px 40px 20px;
+    text-shadow: 5px;
+  }
+  
+  .general{
+  }
+  .body{
+    margin: 0 0 0 0;
+    background-image: url(../imagenes/quilla-noche.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+  }
+  .logotipo{
+    width: 40px;
+    height: 40px;
+  }
+  .texto-logo{
+    font-size: 40px;
+  }
+  .header-invisible{
+    margin: 0 0 20px 0;
+  }
+}
