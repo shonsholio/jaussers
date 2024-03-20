@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   { "propiedad": "704",
     "ubicacion": "Buenavista",
     "titulo": "Apartamento con Aire Acondicionado, Smart TV",
@@ -107,5 +108,25 @@
     "amenOficina": [ "Wifi de alta velocidad", "Zona de trabajo" ],
     "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7832.444816515571!2d-74.81765627880226!3d11.021932975685257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1714175198287!5m2!1ses-419!2sco" } 
 
+=======
+  {
+    "propiedad": "409",
+    "ubicacion": "Ciudad Jardin",
+    "titulo": "Apto con Aire Acondicionado, Smart TV",
+    "huespedes": "4 huespedes",
+    "habitacion": "1 habitación",
+    "camas": "2 camas",
+    "bano": "1 baño"
+  },
+  {
+    "propiedad": "306A",
+    "ubicacion": "Granadillo",
+    "titulo": "Apto con Aire Acondicionado, Smart TV",
+    "huespedes": "2 huespedes",
+    "habitacion": "1 habitación",
+    "camas": "1 cama",
+    "bano": "1 baño"
+  }
+>>>>>>> nos fuimos
 ]
 
