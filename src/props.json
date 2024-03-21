@@ -1,5 +1,6 @@
 [
 <<<<<<< HEAD
+<<<<<<< HEAD
   { "propiedad": "704",
     "ubicacion": "Buenavista",
     "titulo": "Apartamento con Aire Acondicionado, Smart TV",
@@ -111,22 +112,34 @@
 =======
   {
     "propiedad": "409",
+=======
+  { "propiedad": "409",
+>>>>>>> 3 paginas dinamicas
     "ubicacion": "Ciudad Jardin",
     "titulo": "Apto con Aire Acondicionado, Smart TV",
     "huespedes": "4 huespedes",
     "habitacion": "1 habitación",
     "camas": "2 camas",
-    "bano": "1 baño"
-  },
-  {
-    "propiedad": "306A",
+    "bano": "1 baño" },
+  { "propiedad": "306A",
     "ubicacion": "Granadillo",
     "titulo": "Apto con Aire Acondicionado, Smart TV",
     "huespedes": "2 huespedes",
     "habitacion": "1 habitación",
     "camas": "1 cama",
+<<<<<<< HEAD
     "bano": "1 baño"
   }
 >>>>>>> nos fuimos
+=======
+    "bano": "1 baño" },
+  { "propiedad": "501A",
+    "ubicacion": "La Campiña",
+    "titulo": "Apto con Aire Acondicionado, Smart TV y Agua Caliente",
+    "huespedes": "2 huespedes",
+    "habitacion": "1 habitación",
+    "camas": "1 cama",
+    "bano": "1 baño" }
+>>>>>>> 3 paginas dinamicas
 ]
 
