@@ -164,6 +164,7 @@
     "huespedes": 6,
     "habitacion": 3,
     "camas": "3 camas",
+    "sofaCama" : 0,
     "bano": "2 baños" } 
 >>>>>>> bastante avanzados
 ]
