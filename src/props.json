@@ -120,7 +120,9 @@
     "huespedes": "4 huespedes",
     "habitacion": "1 habitación",
     "camas": "2 camas",
-    "bano": "1 baño" },
+    "bano": "1 baño",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] },
   { "propiedad": "306A",
     "ubicacion": "Granadillo",
     "titulo": "Apto con Aire Acondicionado, Smart TV",
@@ -128,11 +130,17 @@
     "habitacion": "1 habitación",
     "camas": "1 cama",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "bano": "1 baño"
   }
 >>>>>>> nos fuimos
 =======
     "bano": "1 baño" },
+=======
+    "bano": "1 baño",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] },
+>>>>>>> amenidades json
   { "propiedad": "501A",
     "ubicacion": "La Campiña",
     "titulo": "Apto con Aire Acondicionado, Smart TV y Agua Caliente",
@@ -140,32 +148,49 @@
     "habitacion": "1 habitación",
     "camas": "1 cama",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "bano": "1 baño" }
 >>>>>>> 3 paginas dinamicas
 =======
     "bano": "1 baño" },
+=======
+    "bano": "1 baño",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] },
+>>>>>>> amenidades json
     { "propiedad": "1001",
     "ubicacion": "Paraiso",
     "titulo": "Apto con Aire Acondicionado y Smart TV",
     "huespedes": "6 huespedes",
     "habitacion": "2 habitaciones",
     "camas": "3 camas",
-    "bano": "2 baños" },
+    "bano": "2 baños",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] },
     { "propiedad": "102",
     "ubicacion": "Tivoli",
     "titulo": "Apto con Aire Acondicionado y Smart TV",
     "huespedes": "6 huespedes",
     "habitacion": "3 habitaciones",
     "camas": "3 camas",
-    "bano": "2 baños" },
+    "bano": "2 baños",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] },
     { "propiedad": "702",
     "ubicacion": "Villa Carolina",
     "titulo": "Apto con Aire Acondicionado y Smart TV",
     "huespedes": 6,
     "habitacion": 3,
-    "camas": "3 camas",
+    "camas": 3,
+    "camaSizes": ["1 cama doble", "1 cama doble", "1 cama doble"],
     "sofaCama" : 0,
+<<<<<<< HEAD
     "bano": "2 baños" } 
 >>>>>>> bastante avanzados
+=======
+    "bano": "2 baños",
+    "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
+    "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"] } 
+>>>>>>> amenidades json
 ]
 
