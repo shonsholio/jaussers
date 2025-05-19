@@ -1,6 +1,9 @@
 [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> con buenavista
   { "propiedad": "704",
     "ubicacion": "Buenavista",
     "titulo": "Apartamento con Aire Acondicionado, Smart TV",
@@ -10,7 +13,11 @@
     "bano": 2,
     "amenCocina": ["Refrigerador", "Utensilios básicos para cocinar", "Platos y cubiertos", "Lavavajillas","Estufa a gas","Horno","Cafetera","Tostadora","Licuadora"],
     "amenInstalacionesYServicios": ["Llegada autónoma", "Ascensor", "Cerradura Inteligente","Estacionamiento Gratuito","Balcón Privado","Se permiten mascotas", "Disponible para estadías largas"],
+<<<<<<< HEAD
     "amenDormitorio": ["Lavadora en la vivienda: Gratis", "Ganchos para la ropa", "Sábanas", "Almohadas y mantas", "Plancha", "Espacio para guardar ropa: Armario" ],
+=======
+    "amenDormitorio": ["Lavadora en la vivienda: Gratis", "Secadora en la vivienda: Gratis", "Ganchos para la ropa", "Sábanas", "Almohadas y mantas", "Plancha", "Espacio para guardar ropa: Armario" ],
+>>>>>>> con buenavista
     "amenClima": [ "Aire acondicionado tipo split", "Ventiladores portátiles" ],
     "amenEntretenimiento": [ "Conexión Ethernet", "Televisor de alta definición Smart TV", "Gimnasio", "Piscina" ],
     "amenOficina": [ "Wifi de alta velocidad", "Zona de trabajo" ],
