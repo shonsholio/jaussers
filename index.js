@@ -25,5 +25,5 @@ app.use('/', mainRoutes);
 app.use(express.static(path.join(__dirname, './public')));
 
 app.listen(app.get('port'), () => {
-  console.log('CONECTADO AL PUERTO 3000')
+  console.log('CELEBRA LA VIDA')
 });
