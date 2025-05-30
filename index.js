@@ -15,7 +15,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './views'))
 
 //MIDDLEWARES
-app.use(morgan('dev'));
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 
