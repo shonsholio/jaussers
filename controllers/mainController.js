@@ -23,9 +23,12 @@ controller.plantilla = (req,res) => {
     var info = '702'
   }
 
+  
+  console.log(info)
+
   res.render('plantilla', {
     data: props,
-    apto: info
+    apto: info,
   });
 }  
 
