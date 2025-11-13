@@ -17,8 +17,8 @@ controller.plantilla = (req,res) => {
     var info = '306'
   } else if (url =='/la-campina'){
     var info = '501'
-  } else if (url =='/paraiso'){
-    var info = '100'
+  } else if (url =='/ccviva'){
+    var info = '201'
   } else if (url =='/tivoli'){
     var info = '102'
   } else if (url =='/villa-carolina'){
