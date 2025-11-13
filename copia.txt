@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.boton {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+    <button class="boton">Hover sobre mí</button>
+</body>
+</html>
