@@ -1,31 +1,58 @@
 <%- include('partials/_header') %> %>
-<div class="container" style="width: 100%;">
 
-  <div class="bg-image" style="background-image: url('https://i.pinimg.com/originals/f7/51/d6/f751d68b8aad69d0b8048992096df64f.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed; min-height: 100vh;">
 
-  <br>  <br>
-  <div class="text-light text-shadow p-4 justify-content-center">
-    <h2 class="text-center" style="font-family: Arial, Helvetica, sans-serif;" >jaussers</h2>
-    <h1 class="text-center fs-6" id="titul" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">APARTAMENTOS AMOBLADOS</h1>
-  </div>
-
-  <div class="justify-content-center d-flex mt-3">
-    <ul class="list-group text-center d-grid gap-2 col-lg-3 col-6">
-      <li class="border mb-2" type="button"><a href="/bluegardens" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Blue Gardens</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/buenavista" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Buenavista</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/ccviva" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">CC Viva</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/ciudad-jardin" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Ciudad Jardin</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/granadillo" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Granadillo</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/la-campina" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">La Campiña</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/tivoli" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Tivoli</h4></a></li>
-      <li class="border mb-2" type="button"><a href="/villa-carolina" class="btn"><h4 class="text-light" style="font-size: large; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Villa Carolina</h4></a></li>
-    </ul>
-  </div>
-
+<div class="flex items-center p-5 justify-between max-w-lg mx-auto w-full">
+<span class="material-symbols-outlined text-primary/80">menu_open</span>
+<h1 class="serif-header text-xl font-medium tracking-widest text-center flex-1">jaussers</h1>
+<div class="w-8 h-8 rounded-full border border-primary/20 p-0.5">
+<img alt="Profile" class="w-full h-full object-cover rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACmzfTGMCs7dsDZGK82cBtQeYeAYGw8FrhlydmtnZqKnthTwTiy94U575kYH0LEF2s4vDg7jt7Q7NCzgKxNV67s085dCb96878Ixeked6O3MmubkVhN1JwGgobLkHjjJEyP4eTPA4wjMY6WWqi-RMkNmZKjoOyriy-CmyoNHS00tcdgPpQ0g6j4nDVoKAMiy10kA1JtKkWfd1wBgbA0rsw3TxQIQAAjKXEbyPCqguhEN_eQWoZzEFAAskrJ9d5pdJfy6CmK9doPO0"/>
 </div>
-
-  
 </div>
+</header>
+<main class="flex-1">
+
+<!-- BACKEND -->
+
+<% for (a = 0; a < aptos.length; a++) { %>
+  <% let unidad = aptos[a] %>
+  <% let indice = listing.find(item => item.propiedad === unidad) %>
+
+  <!-- Necesito encontrar a que indice de LISTING, corresponde el valor unidad -->
+
+<!-- INICIO ANUNCIO -->
+
+<article class="flex flex-col w-full bg-white dark:bg-zinc-900 overflow-hidden mb-1">
+    
+    <div class="w-full overflow-hidden group">
+      <img alt="naxos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="/<%= unidad %>/1.jpg"/>
+    </div>
+    
+    <!-- ESTA CAJA ES EL TEXTO DEL ANUNCIO -->
+    <div class="h-[25%] p-6 flex flex-col justify-center">
+      <div class="flex justify-between items-center">
+        <div class="space-y-1">
+          <div class="flex items-center gap-2 mb-1.5">
+            <span class="text-[12px] font-bold tracking-[0.2em] uppercase text-primary"><%= indice.ubicacion %></span>
+          </div>
+          <h3 class="serif-header text-2xl font-light text-slate-900 dark:text-white"><%= indice.titulo %></h3>
+        </div>
+        <button class="text-primary/40">
+          <span class="material-symbols-outlined text-3xl font-extralight">arrow_forward_ios</span>
+        </button>
+      </div>
+    </div>
+    
+  </article>
+  <% } %>
+    <!-- FIN DEL ANUNCIO -->
+    
+    
+    <div class="h-24 bg-background-light dark:bg-background-dark"></div>
+</main>
+
+<nav class="fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-primary/10 px-6 pb-8 pt-4 z-40">
+  <p class="text-primary text-center text-[10px] font-bold uppercase tracking-[0.15em]">Info y Contacto: +57 (300) 246 81 26</p>
+</nav>
 
 </body>
-</html> 
+</html>

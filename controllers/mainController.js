@@ -1,8 +1,29 @@
 const controller = {};
 const props = require('../src/props.json');
+const fs = require('fs/promises');
+const path = require('path');
 
-controller.main = (req,res) => {
-  res.render('main');
+controller.main = async (req,res) => {
+  try {
+      const directoryPath = path.join(__dirname, '../public');
+      const files = await fs.readdir(directoryPath);
+      const carpetas = []
+
+      for (const nombre of files) {
+        const stats = await fs.stat(path.join(directoryPath, nombre));
+        if (stats.isDirectory()) {
+          carpetas.push(nombre)
+        }
+      }
+      
+      // Enviamos la respuesta al cliente
+      res.render('main', { 
+        aptos: carpetas,
+        listing: props
+      }); 
+  } catch (err) {
+      res.status(500).send("Error al leer la carpeta");
+  }
 }
 
 controller.plantilla = (req,res) => {
