@@ -36,7 +36,7 @@
           </div>
           <h3 class="serif-header text-2xl font-light text-slate-900 dark:text-white"><%= indice.titulo %></h3>
         </div>
-        <button class="text-primary/40">
+        <button class="text-primary/40" onclick="window.location.href='/<%= indice.url %>'">
           <span class="material-symbols-outlined text-3xl font-extralight">arrow_forward_ios</span>
         </button>
       </div>
@@ -52,7 +52,11 @@
 
 <nav class="fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-background-dark/90 backdrop-blur-xl border-t border-primary/10 px-6 pb-8 pt-4 z-40">
   <p class="text-primary text-center text-[10px] font-bold uppercase tracking-[0.15em]">Info y Contacto: +57 (300) 246 81 26</p>
+  <div class="flex flex-col items-center justify-center text-sm text-gray-500 dark:text-zinc-500">
+    <p class="text-[10px]">© 2026 <span class="text-[10px] font-semibold text-gray-800 dark:text-zinc-200">Powered by consep7o.com</span></p>
+  </div>
 </nav>
+
 
 </body>
 </html>

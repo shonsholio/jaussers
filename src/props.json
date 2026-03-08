@@ -1,5 +1,6 @@
 [
   { "propiedad": "130",
+  "url": "bluegardens",
   "ubicacion": "Blue Gardens",
   "titulo": "Apartamento con Aire Acondicionado, Smart TV",
   "huespedes": 4,
@@ -15,6 +16,7 @@
   "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3916.5942914837283!2d-74.81609342548585!3d10.993964589168344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713834036771!5m2!1ses-419!2sco"},
 
   { "propiedad": "704",
+    "url": "buenavista",
     "ubicacion": "Buenavista",
     "titulo": "Internet de Alta Velocidad, Aire Acondicionado, Agua Caliente y Smart TV",
     "huespedes": 6,
@@ -30,6 +32,7 @@
     "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3916.5942914837283!2d-74.81609342548585!3d10.993964589168344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713834036771!5m2!1ses-419!2sco"},
   
   { "propiedad": "409",
+    "url": "ciudad-jardin",
     "ubicacion": "Ciudad Jardin",
     "titulo": "Apartamento con Aire Acondicionado, Smart TV",
     "huespedes": 4,
@@ -45,6 +48,7 @@
     "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3916.5942914837283!2d-74.81609342548585!3d10.993964589168344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713834036771!5m2!1ses-419!2sco"},
   
     { "propiedad": "306",
+    "url": "granadillo",
     "ubicacion": "Granadillo",
     "titulo": "Apto con Aire Acondicionado, Smart TV",
     "huespedes": 2,
@@ -60,6 +64,7 @@
     "mapa": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3916.4803223595954!2d-74.82189487088624!3d11.00254337784526!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713833691166!5m2!1ses-419!2sco"},
   
     { "propiedad": "501",
+    "url": "la-campina",
     "ubicacion": "La Campiña",
     "titulo": "Apto con Aire Acondicionado, Smart TV y Agua Caliente",
     "huespedes": 4,
@@ -75,6 +80,8 @@
     "mapa": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3916.4803223595954!2d-74.82189487088624!3d11.00254337784526!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713833691166!5m2!1ses-419!2sco"},
 
     { "propiedad": "201",
+    "url": "ccviva",
+    "espacio": "Zona muy tranquila y segura, a tan sólo una cuadra del Centro Comercial Viva. Es un espacio ideal para quienes viajan por trabajo o descanso. Alrededor cuenta con supermercados, tiendas, droguerías y restaurantes. Está localizado en una de las zonas médicas más importantes del norte de la ciudad.",
     "ubicacion": "Centro Comercial Viva",
     "titulo": "Estudio con AA, Smart TV y Agua Caliente",
     "huespedes": 4,
@@ -91,6 +98,8 @@
 
    
     { "propiedad": "102",
+    "url": "tivoli",
+    "espacio": "Espacio ideal para grupos y familias tiene una capacidad máxima de 6 huéspedes. Apartamento de 3 alcobas y 2 baños. Cada habitación cuenta con cama doble, Aire acondicionado y TV. La",
     "ubicacion": "Tivoli",
     "titulo": "Apto con Aire Acondicionado y Smart TV",
     "huespedes": 6,
@@ -106,6 +115,8 @@
     "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7832.516590997256!2d-74.81853604335909!3d11.0192370445633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1714175303378!5m2!1ses-419!2sco" },
 
     { "propiedad": "702",
+    "url": "villa-carolina",
+    "espacio": "Disfruta de la comodidad y frescura de este moderno apartamento ubicado en el corazón de Villa Carolina, el sector más estratégico del norte de Barranquilla. Estarás a solo 5 minutos de los mejores centros comerciales como Buenavista, Viva y Mall Plaza, rodeado de parques y una excelente oferta gastronómica.",
     "ubicacion": "Villa Carolina",
     "titulo": "Apto con Aire Acondicionado y Smart TV",
     "huespedes": 6,
@@ -120,6 +131,6 @@
     "amenClima": [ "Aire acondicionado tipo split", "Ventiladores portátiles" ],
     "amenEntretenimiento": [ "Conexión Ethernet", "Televisor de alta definición Smart TV", "Gimnasio", "Piscina" ],
     "amenOficina": [ "Wifi de alta velocidad", "Zona de trabajo" ],
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7832.444816515571!2d-74.81765627880226!3d11.021932975685257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1714175198287!5m2!1ses-419!2sco" } 
+    "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.2081555724512!2d-74.81867462415627!3d11.02300348914115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42dc8019c3817%3A0x59b2e34e5ae621db!2sConjunto%20Residencial%20Mirador%20del%20Parque!5e0!3m2!1ses-419!2sco!4v1772930398338!5m2!1ses-419!2sco" } 
 ]
 
