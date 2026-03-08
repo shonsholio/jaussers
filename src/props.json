@@ -17,6 +17,7 @@
 
   { "propiedad": "704",
     "url": "buenavista",
+    "espacio": "Ubicado en la privilegiada zona de Buenavista, estarás a pasos de la mejor oferta gastronómica, centros comerciales y clínicas de alto nivel de la ciudad. Es el refugio ideal para viajeros exigentes que buscan ubicación estratégica y un servicio de anfitrión de primer nivel.",
     "ubicacion": "Buenavista",
     "titulo": "Internet de Alta Velocidad, Aire Acondicionado, Agua Caliente y Smart TV",
     "huespedes": 6,
@@ -29,7 +30,7 @@
     "amenClima": [ "Aire acondicionado tipo split", "Ventiladores portátiles" ],
     "amenEntretenimiento": [ "Conexión Ethernet", "Televisor de alta definición Smart TV", "Gimnasio", "Piscina" ],
     "amenOficina": [ "Wifi de alta velocidad", "Zona de trabajo" ],
-    "mapa": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3916.5942914837283!2d-74.81609342548585!3d10.993964589168344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1713834036771!5m2!1ses-419!2sco"},
+    "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.3320287603924!2d-74.82799362415628!3d11.013695989149854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d11fee2fbc9%3A0xd5e2307b98dc6daa!2sConjunto%20Residencial%20Altos%20del%20Parque!5e0!3m2!1ses-419!2sco!4v1772930772996!5m2!1ses-419!2sco"},
   
   { "propiedad": "409",
     "url": "ciudad-jardin",
