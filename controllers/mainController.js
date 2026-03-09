@@ -46,10 +46,38 @@ controller.plantilla = (req,res) => {
     var info = '702'
   }
 
-  res.render('plantilla', {
-    data: props,
-    apto: info,
-  });
+  async function obtenerArchivosDeCarpeta(nombreCarpeta) {
+    try {
+      // Construimos la ruta absoluta (ajusta '../public' según tu estructura)
+      const directoryPath = path.join(__dirname, '../public', nombreCarpeta);
+      
+      // Leemos el contenido con tipos de archivo para filtrar
+      const entradas = await fs.readdir(directoryPath, { withFileTypes: true });
+
+      // Filtramos para que solo incluya archivos (isFile)
+      const listaArchivos = entradas
+          .filter(entrada => entrada.isFile()) 
+          .map(entrada => entrada.name);  
+
+      let cant = listaArchivos.length
+      
+      res.render('plantilla', {
+        data: props,
+        apto: info,
+        nums: cant
+      });
+
+      return listaArchivos
+
+    } catch (err) {
+      console.error(`Error al leer la carpeta ${nombreCarpeta}:`, err.message);
+      throw new Error("No se pudo obtener la lista de archivos.");
+    }
+  }
+  
+  obtenerArchivosDeCarpeta(info);
+
+
 }  
 
 module.exports = controller
