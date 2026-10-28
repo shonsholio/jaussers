@@ -15,7 +15,7 @@ controller.main = async (req,res) => {
           carpetas.push(nombre)
         }
       }
-      
+
       // Enviamos la respuesta al cliente
       res.render('main', { 
         aptos: carpetas,
@@ -42,7 +42,9 @@ controller.plantilla = (req,res) => {
     var info = '201'
   } else if (url =='/tivoli'){
     var info = '102'
-  } else if (url =='/villa-carolina'){
+  } else if (url =='/villa-carolina1'){
+    var info = '510'
+  } else if (url =='/villa-carolina2'){
     var info = '702'
   }
 

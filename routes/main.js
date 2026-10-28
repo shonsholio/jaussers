@@ -11,6 +11,8 @@ router.get('/ciudad-jardin', mainController.plantilla);
 router.get('/granadillo', mainController.plantilla);
 router.get('/la-campina', mainController.plantilla);
 router.get('/tivoli', mainController.plantilla);
-router.get('/villa-carolina', mainController.plantilla);
+router.get('/villa-carolina1', mainController.plantilla);
+router.get('/villa-carolina2', mainController.plantilla);
+
 
 module.exports = router;
